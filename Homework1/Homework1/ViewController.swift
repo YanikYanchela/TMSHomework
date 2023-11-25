@@ -16,15 +16,27 @@ class ViewController: UIViewController {
         let twoNumber = 9.7
         let threeNumber = 6.9
         let fourNumber = 8.2
-
+        
         let summInteger = Int(oneNumber) + Int(twoNumber) + Int(threeNumber) + Int(fourNumber)
-       
+        
         print("сумма целых чисел = \(summInteger)")
         
         let summFractions: Float = Float(oneNumber - floor(oneNumber) + twoNumber - floor(twoNumber) + threeNumber - floor(threeNumber) + fourNumber - floor(fourNumber))
         
         print("сумма дробных частей = \(summFractions)")
+        
+        if Int(oneNumber) % 2 == 0{
+            print("число \(Int(oneNumber)) четное")
+        }else{
+                print("число \(Int(oneNumber)) нечетное")
+                
+            }
+        if Int(twoNumber) % 2 == 0{
+            print("число \(Int(twoNumber)) четное")
+        }else{
+            print("число \(Int(twoNumber)) нечетное")
+        }
     }
-    
+        
 }
 
