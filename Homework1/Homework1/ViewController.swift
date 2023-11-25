@@ -41,6 +41,11 @@ class ViewController: UIViewController {
         }else{
             print("число \(Int(threeNumber)) нечетное")
         }
+        if Int(fourNumber) % 2 == 0{
+            print("число \(Int(fourNumber)) четное")
+        }else{
+            print("число \(Int(fourNumber)) нечетное")
+        }
     }
         
 }
