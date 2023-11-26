@@ -25,23 +25,34 @@ class ViewController: UIViewController {
         
         print("сумма дробных частей = \(summFractions)")
         
-        if Int(oneNumber) % 2 == 0{
-            print("число \(Int(oneNumber)) четное")
-        }else{
-                print("число \(Int(oneNumber)) нечетное")
-                
+        //        if Int(oneNumber) % 2 == 0{
+        //            print("число \(Int(oneNumber)) четное")
+        //        }else{
+        //                print("число \(Int(oneNumber)) нечетное")
+        //
+        //            }
+        //        if Int(twoNumber) % 2 == 0{
+        //            print("число \(Int(twoNumber)) четное")
+        //        }else{
+        //            print("число \(Int(twoNumber)) нечетное")
+        //        }
+        //        if Int(threeNumber) % 2 == 0{
+        //            print("число \(Int(threeNumber)) четное")
+        //        }else{
+        //            print("число \(Int(threeNumber)) нечетное")
+        //        }
+        
+        let numberArray = [2.5, 9.7, 6.9, 8.2]
+        
+        for numm in numberArray{
+            if Int(numm) % 2 == 0{
+                print("число \(numm) четное")
+            } else {
+                print("число \(numm) нечетное")
             }
-        if Int(twoNumber) % 2 == 0{
-            print("число \(Int(twoNumber)) четное")
-        }else{
-            print("число \(Int(twoNumber)) нечетное")
-        }
-        if Int(threeNumber) % 2 == 0{
-            print("число \(Int(threeNumber)) четное")
-        }else{
-            print("число \(Int(threeNumber)) нечетное")
         }
     }
+  
         
 }
 
