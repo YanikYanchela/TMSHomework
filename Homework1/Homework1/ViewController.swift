@@ -6,11 +6,16 @@
 //
 
 import UIKit
+import SVProgressHUD
+
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SVProgressHUD.
+        SVProgressHUD.setDefaultMaskType(.clear)
+        SVProgressHUD.show(withStatus: "Loading")
         
         let oneNumber = 2.5
         let twoNumber = 9.7
@@ -24,23 +29,6 @@ class ViewController: UIViewController {
         let summFractions: Float = Float(oneNumber - floor(oneNumber) + twoNumber - floor(twoNumber) + threeNumber - floor(threeNumber) + fourNumber - floor(fourNumber))
         
         print("сумма дробных частей = \(summFractions)")
-        
-        //        if Int(oneNumber) % 2 == 0{
-        //            print("число \(Int(oneNumber)) четное")
-        //        }else{
-        //                print("число \(Int(oneNumber)) нечетное")
-        //
-        //            }
-        //        if Int(twoNumber) % 2 == 0{
-        //            print("число \(Int(twoNumber)) четное")
-        //        }else{
-        //            print("число \(Int(twoNumber)) нечетное")
-        //        }
-        //        if Int(threeNumber) % 2 == 0{
-        //            print("число \(Int(threeNumber)) четное")
-        //        }else{
-        //            print("число \(Int(threeNumber)) нечетное")
-        //        }
         
         let numberArray = [2.5, 9.7, 6.9, 8.2]
         
