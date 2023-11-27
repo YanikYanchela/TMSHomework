@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        SVProgressHUD.
         SVProgressHUD.setDefaultMaskType(.clear)
         SVProgressHUD.show(withStatus: "Loading")
         
