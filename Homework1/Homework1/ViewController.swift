@@ -38,6 +38,10 @@ class ViewController: UIViewController {
                 print("число \(numm) нечетное")
             }
         }
+        let intOptionalValue: Int? = 42
+            let stringOptionalValue: String? = "This is a string"
+            let nilCoalesingValue: Int? = nil
+            let guardValue: Double = 15.0
     }
   
         
